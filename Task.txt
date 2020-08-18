@@ -1,0 +1,10 @@
+Maticová kalkulačka
+
+Kalkulačka implementuje:
+
+    práci s maticemi různé velikosti
+    základní operace: sčítání, odčítání, násobení, transpozice
+    sloučení (3x3 sloučeno s 3x3 => matice 6x3) a oříznutí (např. pouze levá polovina matice 6x3 => levá 3x3)
+    efektivní paměťovou reprezentaci (pro řídké matice se nehodí 2D pole, pro husté matice naopak)
+    funkce pro výpočet determinantu, určení hodnosti, Gaussova eliminační metoda
+    proměnné (uložení matice do proměnné, načítání matice ze vstupu, využití proměnné ve výpočtu)

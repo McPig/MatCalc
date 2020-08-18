@@ -1,0 +1,16 @@
+Command list:
+    help                                              - prints this message.
+    exit                                              - exits the program.
+    print <var>                                       - prints the matrix.
+    scan <var> <rows> <cols>                          - reads the matrix from input.
+    var <var1> <var2>                                 - copies var2 to var1
+    assign <var> <rows> <cols> <value>                - initialises matrix with value.
+    add <var1> ... <varN> [store]                     - performs addition, optionally saves result in the last argument.
+    subt <var1> ... <varN> [store]                    - performs subtraction, optionally saves result in the last argument.
+    mult <var1> ... <varN> [store]                    - performs multiplication, optionally saves result in the last argument.
+    merge <var1> ... <varN> [store]                   - merges matrices, optionally saves result in the last argument.
+    split <var> <row_i> <col_i> <rows> <cols> [store] - creates sub-matrix, optionally saves result in the last argument.
+    trans <var> [store]                               - transpose matrix, optionally saves result in the last argument.
+    gem <var> <vec>                                   - performs Gaussian elimination.
+    rank <var>                                        - computes matrix rank.
+    det <var>                                         - computes matrix determinant.
